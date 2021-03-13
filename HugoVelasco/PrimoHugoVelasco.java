@@ -12,9 +12,7 @@ package primo;
 public class Primo {
 
     public static boolean esPrimo(int num){
-        int contador = 0;
-        for (int i = 1; i < num; i++) {
-            if (num%i == 0){
+   
                 contador++;
             }
         }
