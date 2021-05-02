@@ -23,11 +23,7 @@ public class Deposito {
             System.out.println (Creado depósito con valores por defecto diametro 10 metros altura 5 metros id 000 );
         }   } Cierre del constructor
 
-    public void setValoresDeposito (String valor_idDeposito, float valor_diametro, float valor_altura) {
-        idDeposito = valor_idDeposito;
-        diametro = valor_diametro;
-        altura = valor_altura;
-        if (idDeposito != && valor_diametro  0 && valor_altura  0) {
+
         } else {
             System.out.println (Valores no admisibles. No se han establecido valores para el depósito);
             Deposito (0.0f, 0.0f, ); Esto no es posible. Un constructor no es un método y por tanto no podemos llamarlo
